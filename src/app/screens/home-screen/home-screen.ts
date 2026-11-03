@@ -7,5 +7,21 @@ import { Component } from '@angular/core';
   styleUrl: './home-screen.scss',
 })
 export class HomeScreen {
-
+  tecnologias = [
+    {
+      nombre: 'Angular',
+      icono: 'window-fullscreen',
+      descripcion: 'Framework para construir aplicaciones web de una sola página.'
+    },
+    {
+      nombre: 'TypeScript',
+      icono: 'terminal-dash',
+      descripcion: 'Superconjunto tipado de JavaScrit utilizado por Angular.'
+    },
+    {
+      nombre: 'Node.js y NPM',
+      icono: 'bi-box-seam',
+      descripcion: 'Entorno de ejecución y gestor de paquetes del proyecto.'
+    }
+  ];
 }

@@ -1,1 +1,23 @@
-<p>home-screen works!</p>
+<header class="container py-5 text-center">
+  <h1 class="display-5 fw-bold">Desarrollo de Sitios Web</h1>
+  <p class="lead">El desarrollo de sitios web en la actulidad prioza el uso de tecnologías que faciliten todo el proceso.
+    El enfoque que se ha tomado, gracias al auge de los dispositivos móviles es el llamado Mobile First para luego darles funciones
+    responsive.
+  </p>
+</header>
+
+<section class="container pb-5">
+  <div class="row g-4">
+    @for (tec of tecnologias; track tec.nombre) {
+      <div class="col-12 col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <div class="card-body">
+            <i class="bi {{ tec.icono }} fs-1"></i>
+            <h2 class="h5 mt-3">{{ tec.nombre }}</h2>
+            <p class="mb-0">{{ tec.descripcion }}</p>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</section>
