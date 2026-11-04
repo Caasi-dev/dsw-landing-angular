@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 })
 export class DocumentacionScreen {
   urlDocumentacion = 'https://angular.dev';
+  urlDocumentacionTS = 'https://www.typescriptlang.org/docs/'
 
   diapositivas = [
     { titulo: 'Node.js', imagen: 'assets/images/node.png' },

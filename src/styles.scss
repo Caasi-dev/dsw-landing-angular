@@ -37,12 +37,12 @@ body {
 html, body { height: 100%; }
 
 /* ==========================================================================
-   Tipografías Nexa ('FuenteDSW' y 'Nexa')
+   Tipografías
    ========================================================================== */
 
 /* Nexa Light (300) */
 @font-face {
-  font-family: 'FuenteDSW-Light';
+  font-family: 'FuenteDSW';
   src: url('/assets/fonts/NexaLight.woff2') format('woff2'),
        url('/assets/fonts/NexaLight.woff') format('woff'),
        url('/assets/fonts/NexaLight.ttf') format('truetype');
@@ -53,7 +53,7 @@ html, body { height: 100%; }
 
 /* Nexa Regular (400) */
 @font-face {
-  font-family: 'FuenteDSW-Regular';
+  font-family: 'FuenteDSW';
   src: url('/assets/fonts/NexaRegular.woff2') format('woff2'),
        url('/assets/fonts/NexaRegular.woff') format('woff'),
        url('/assets/fonts/NexaRegular.ttf') format('truetype');
@@ -64,7 +64,7 @@ html, body { height: 100%; }
 
 /* Nexa Bold (700) */
 @font-face {
-  font-family: 'FuenteDSW-Bold';
+  font-family: 'FuenteDSW';
   src: url('/assets/fonts/NexaBold.woff2') format('woff2'),
        url('/assets/fonts/NexaBold.woff') format('woff'),
        url('/assets/fonts/NexaBold.ttf') format('truetype');
@@ -74,9 +74,9 @@ html, body { height: 100%; }
 }
 
 :root {
-  --bs-body-font-family: 'FuenteDSW-Regular', 'FuenteDSW-Light', 'FuenteDSW-Bold', sans-serif;
+  --bs-body-font-family: 'FuenteDSW', sans-serif;
 }
 
 body {
-  font-family: 'FuenteDSW-Regular', 'FuenteDSW-Light', 'FuenteDSW-Bold', sans-serif;
+  font-family: 'FuenteDSW', sans-serif !important;
 }

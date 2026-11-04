@@ -16,7 +16,7 @@ export class HomeScreen {
     {
       nombre: 'TypeScript',
       icono: 'bi-terminal-dash',
-      descripcion: 'Superconjunto tipado de JavaScrit utilizado por Angular.'
+      descripcion: 'Superconjunto tipado de JavaScript utilizado por Angular.'
     },
     {
       nombre: 'Node.js y NPM',
