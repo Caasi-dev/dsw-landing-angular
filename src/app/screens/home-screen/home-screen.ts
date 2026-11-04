@@ -10,12 +10,12 @@ export class HomeScreen {
   tecnologias = [
     {
       nombre: 'Angular',
-      icono: 'window-fullscreen',
+      icono: 'bi-window-fullscreen',
       descripcion: 'Framework para construir aplicaciones web de una sola página.'
     },
     {
       nombre: 'TypeScript',
-      icono: 'terminal-dash',
+      icono: 'bi-terminal-dash',
       descripcion: 'Superconjunto tipado de JavaScrit utilizado por Angular.'
     },
     {

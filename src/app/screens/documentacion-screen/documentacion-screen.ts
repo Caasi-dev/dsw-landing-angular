@@ -10,9 +10,9 @@ export class DocumentacionScreen {
   urlDocumentacion = 'https://angular.dev';
 
   diapositivas = [
-    { titulo: 'Node.js', imagen: 'assets/img/node.png' },
-    { titulo: 'TypeScript', imagen: 'assets/img/typescript.png' },
-    { titulo: 'Angular', imagen: 'assets/img/angular.png' },
-    { titulo: 'NPM', imagen: 'assets/img/npm.png' }
+    { titulo: 'Node.js', imagen: 'assets/images/node.png' },
+    { titulo: 'TypeScript', imagen: 'assets/images/ts.png' },
+    { titulo: 'Angular', imagen: 'assets/images/angular.png' },
+    { titulo: 'NPM', imagen: 'assets/images/npm.png' }
   ];
 }
